@@ -156,7 +156,7 @@ function keyPressed(){
     if(estado==1 && pos_cursor==1){
       estado = 2; // vai para fase 1
     }
-    else if(estado==1 && pos_cursor2==2){
+    else if(estado==1 && pos_cursor==2){
       estado = 3; // vai para objetivo
     }
     else if(estado==2){
